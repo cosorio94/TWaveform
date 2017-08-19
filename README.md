@@ -16,7 +16,7 @@ make all
 ```
 
 ## Usage
-For this step, you will need to have CERN's ROOT framework installed. For instructions on how to do this go [here](https://root.cern.ch/root/htmldoc/guides/users-guide/ROOTUsersGuide.html).
+For this step, you will need to have CERN's ROOT framework installed. For instructions on how to install it go [here](https://root.cern.ch/root/htmldoc/guides/users-guide/ROOTUsersGuide.html).
 Now, to use and initialize a TWaveform instance using ROOT's command line, run the following commands on the terminal:
 ```
 root -l
