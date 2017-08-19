@@ -1,5 +1,6 @@
 # TWaveform
 A C++ utility library used to read, process, and analyze massive sets of waveform data.
+![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/wave5439_Fit.png "Waveform data fitted with TWaveform")
 
 ## Developer
 - [Carlos Osorio](https://github.com/cosorio94)
