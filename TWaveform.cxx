@@ -1,6 +1,6 @@
 // TWaveform.cxx
 // Carlos Osorio, July 2016
-// Waveform utility library used to read and process massive sets of waveform data 
+// Utility library used to read, process and analyze massive sets of waveform data 
 // See User Guide for documentation
 
 #include <iostream>
