@@ -149,7 +149,7 @@ namespace {
     };
     static const char* includePaths[] = {
 "/usr/local/Cellar/root6/6.08.02/include/root",
-"/Users/carlososoriov/Documents/University/Stuart_Internship/TWaveform Package/",
+"/Users/carlososoriov/Documents/University/Stuart_Internship/TWaveform/",
 0
     };
     static const char* fwdDeclCode = R"DICTFWDDCLS(
