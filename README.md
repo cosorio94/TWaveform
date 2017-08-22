@@ -49,17 +49,17 @@ View a detailed description of TWaveform's capabilities and how to use it in the
 
 ## Examples
 
-#### Template Fitting and Waveform Analysis
+### Template Fitting and Waveform Analysis
 The graph below was plotted, fitted and analyzed using TWaveform. The blue curve represents the waveform's signal, while the red curve represents the calculated best fit. The red asterisks represent the peak and rise positions of the pulses contained within the waveform, as calculated by TWaveform.
 
 ![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/Screen%20Shot%202017-08-21%20at%205.32.41%20PM.png "Waveform data fitted with TWaveform")
 
-#### Pulse Templates
+### Pulse Templates
 The plot below shows a pulse template created by TWaveform from a set of waveforms similar to the one on top.
 
 ![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/Screen%20Shot%202017-08-21%20at%205.39.51%20PM.png "Pulse template created with TWaveform")
 
-#### TTree and TChain Histograms
+### TTree and TChain Histograms
 The following histograms were created from a massive collection of waveform data using TWaveform. The data was analyzed using TWaveform's TTree and TChain generating methods that analyze large sets of waveform data.
 
 ![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/Screen%20Shot%202017-08-21%20at%205.40.12%20PM.png "after-pulse height distribution of set of waveforms")
