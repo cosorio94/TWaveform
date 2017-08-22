@@ -14,6 +14,26 @@ A C++ utility library used to read, process, and analyze massive sets of wavefor
     1. [Waveforms with high-noise](#waveforms-with-high-noise)
     1. [Waveforms with two pulses](#waveforms-with-two-pulses)
 
+## Capabilities
+-  Read and plot waveforms from CSV and txt files. It can also be easily adjusted to read data from other file formats.
+-  Find the integral and slope of a waveform. 
+-  Find a waveform’s standard deviation when there is noise.
+-  Compare waveforms to each other. It can determine if two waveforms have similar shapes and plot the fit between them.
+-  Create templates for different shapes of pulses within a waveform set. It does so by analyzing a large number of waveforms and getting an average of the pulses with similar shape and/or size.
+-  Find a waveform’s best fitting template. It is also capable of fitting multiple templates to a single waveform.  This allows TWaveform to do the following processes:
+    - Recognize if a waveform has multiple pulses
+    - Record the position and height of each pulses’ peak.
+    - Record the rise position of the separate pulses.
+    - Find the relative strength of distinct pulses within a waveform.
+-  Create TTrees and TChains with information on the properties of a large set of waveforms, such as:
+    - Rise and peak positions.
+    - Peak heights.
+    - Best fitting templates.
+    - Area under waveform.
+    - Signal’s standard deviation.
+    - Uncertainty values.
+-  Create and plot 1D and 2D histograms of the time distribution of pulses and their peak heights.
+
 ## User Manual
 View a detailed description of TWaveform's capabilities and how to use it in the user manual [here](https://github.com/cosorio94/TWaveform/blob/master/UserManual.pdf).
 
