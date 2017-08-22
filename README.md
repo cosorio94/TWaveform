@@ -1,8 +1,14 @@
 # TWaveform
-A C++ utility library used to read, process, fit and analyze massive sets of waveform data.
+A C++ utility library used to read, process, fit and analyze massive sets of waveform data through CERN's ROOT framework.
 
-## Developer
+## Team
+### UCSB High Energy Physics Group
+#### Developer
 - [Carlos Osorio](https://github.com/cosorio94)
+
+#### Supervisor
+- Dr. David Stuart
+
 
 ## Table of Contents
 1. [Capabilities](#capabilities)
@@ -19,8 +25,8 @@ A C++ utility library used to read, process, fit and analyze massive sets of wav
 -  Read and plot waveforms from CSV and txt files. It can also be easily adjusted to read data from other file formats.
 -  Find the integral and slope of a waveform. 
 -  Find a waveform’s standard deviation when there is noise.
--  Compare waveforms to each other. It can determine if two waveforms have similar shapes and plot the fit between them.
--  Create templates for different shapes of pulses within a waveform set. It does so by analyzing a large number of waveforms and getting an average of the pulses with similar shape and/or size.
+-  Compare waveforms to each other. It can determine if two waveforms have similar shapes and plots the fit between them.
+-  Create templates for different shaped pulses within a waveform set. It does so by analyzing a large number of waveforms and getting an average of the pulses with similar shape and/or size.
 -  Find a waveform’s best fitting template. It is also capable of fitting multiple templates to a single waveform.  This allows TWaveform to do the following processes:
     - Recognize if a waveform has multiple pulses
     - Record the position and height of each pulses’ peak.
@@ -43,11 +49,11 @@ View a detailed description of TWaveform's capabilities and how to use it in the
 
 ![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/Screen%20Shot%202017-08-21%20at%205.32.41%20PM.png "Waveform data fitted with TWaveform")
 
-- The plot below shows a template waveform created by TWaveform from a set of waveforms similar to the one on top.
+- The plot below shows a pulse template created by TWaveform from a set of waveforms similar to the one on top.
 
-![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/Screen%20Shot%202017-08-21%20at%205.39.51%20PM.png "Template waveform created with TWaveform")
+![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/Screen%20Shot%202017-08-21%20at%205.39.51%20PM.png "Pulse template created with TWaveform")
 
-- The following histograms were created with TWaveform from data collected from a massive set of waveforms. The data was analyzed using TWaveform's TTree and TChain generating methods to analyze large sets of waveform data.
+- The following histograms were created from a massive collection of waveform data using TWaveform. The data was analyzed using TWaveform's TTree and TChain generating methods that analyze large sets of waveform data.
 
 ![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/Screen%20Shot%202017-08-21%20at%205.40.12%20PM.png "after-pulse height distribution of set of waveforms")
 
