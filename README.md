@@ -5,6 +5,7 @@ A C++ utility library used to read, process, and analyze massive sets of wavefor
 - [Carlos Osorio](https://github.com/cosorio94)
 
 ## Table of Contents
+1. [Capabilities](#capabilities)
 1. [User Manual](#user-manual)
 1. [Examples](#examples)
 1. [Installation](#installation)
@@ -68,6 +69,7 @@ root -l
 gSystem->Load("TWaveform.so");
 TWaveform wave;
 ```
+Check the [user manual](https://github.com/cosorio94/TWaveform/blob/master/UserManual.pdf) for more instructions on how to use TWaveform's methods.
 
 ## More Examples of Waveforms Being Fitted by TWaveform
 
