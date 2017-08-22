@@ -9,8 +9,9 @@ A C++ utility library used to read, process, and analyze massive sets of wavefor
 1. [Examples](#examples)
 1. [Installation](#installation)
 1. [Usage](#usage)
-1. [More Examples](#more-examples)
-    1. [Waveforms with high-noise](#waveforms-with-high-noise-being-fitted-by-twaveform)
+1. [More Examples](#more-examples-of-waveforms-being-fitted-by-twaveform)
+    1. [Single-pulse Waveforms](#single-pulse-waveforms)
+    1. [Waveforms with high-noise](#waveforms-with-high-noise)
     1. [Waveforms with two pulses](#waveforms-with-two-pulses)
 
 ## User Manual
@@ -48,9 +49,14 @@ gSystem->Load("TWaveform.so");
 TWaveform wave;
 ```
 
-## More Examples
+## More Examples of Waveforms Being Fitted by TWaveform
 
-### Waveforms with high-noise being fitted by TWaveform:
+### Single-pulse Waveforms:
+![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/Screen%20Shot%202017-08-21%20at%206.37.28%20PM.png "Waveform with single pulse being fitted by TWaveform")
+
+![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/Screen%20Shot%202017-08-21%20at%206.37.52%20PM.png "Waveform with single pulse being fitted by TWaveform")
+
+### Waveforms with high-noise:
 ![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/Screen%20Shot%202017-08-21%20at%205.24.16%20PM.png "Waveform with noise being fitted by TWaveform")
 
 ![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/Screen%20Shot%202017-08-21%20at%205.30.09%20PM.png "Waveform with noise being fitted by TWaveform")
