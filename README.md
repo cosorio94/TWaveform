@@ -22,7 +22,7 @@ A C++ utility library used to read, process, fit and analyze massive sets of wav
 1. [More Template Fitting Examples](#more-template-fitting-examples)
     1. [Single-pulse Waveforms](#single-pulse-waveforms)
     1. [Waveforms with high-noise](#waveforms-with-high-noise)
-    1. [Waveforms with two pulses](#waveforms-with-two-pulses)
+    1. [Waveforms with multiple pulses](#waveforms-with-multiple-pulses)
 
 ## Capabilities
 -  Read and plot waveforms from CSV and txt files. It can also be easily adjusted to read data from other file formats.
@@ -96,12 +96,12 @@ Check the [user manual](https://github.com/cosorio94/TWaveform/blob/master/UserM
 
 ![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/Screen%20Shot%202017-08-21%20at%205.30.09%20PM.png "Waveform with noise being fitted by TWaveform")
 
-### Waveforms with two pulses:
+### Waveforms with multiple pulses:
 ![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/Screen%20Shot%202017-08-21%20at%205.31.15%20PM.png "Waveform with two pulses")
 
 ![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/Screen%20Shot%202017-08-21%20at%205.31.38%20PM.png "Waveform with two pulses and high noise")
 
-#### Waveforms with large first pulse and minor second pulse:
+#### Waveforms with slight second pulse:
 ![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/wave5439_Fit.png "Waveform with large first pulse and minor second pulse")
 
 ![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/wave3434.png "Waveform with large first pulse and minor second pulse")
