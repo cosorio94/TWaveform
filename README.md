@@ -5,7 +5,7 @@ A C++ utility library used to read, process, and analyze massive sets of wavefor
 - [Carlos Osorio](https://github.com/cosorio94)
 
 ## Examples
-The graph below was plotted, fitted and analyzed using TWaveform. The blue curve represents the waveform's signal, while the red curve represents the calculated best fit. The red asterisks represent the peak and rise positions of each pulse contained within the waveform, as calculated by TWaveform.
+The graphs below were plotted, fitted and analyzed using TWaveform. The blue curves represent the waveforms' signal, while the red curves represent the calculated best fits. The red asterisks represent the peak and rise positions of the pulses contained within each waveform, as calculated by TWaveform.
 
 ![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/wave5439_Fit.png "Waveform data fitted with TWaveform")
 
