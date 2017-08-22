@@ -48,18 +48,18 @@ TWaveform wave;
 
 ## More Examples
 
-#### Waveforms with high-noise being fitted by TWaveform
+### Waveforms with high-noise being fitted by TWaveform:
 ![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/Screen%20Shot%202017-08-21%20at%205.24.16%20PM.png "Waveform with noise being fitted by TWaveform")
 
 ![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/Screen%20Shot%202017-08-21%20at%205.30.09%20PM.png "Waveform with noise being fitted by TWaveform")
 
-#### Waveform with two pulses
+### Waveform with two pulses:
 ![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/Screen%20Shot%202017-08-21%20at%205.31.15%20PM.png "Waveform with two pulses")
 
-#### Waveforms with large first pulse and minor second pulse
+### Waveforms with large first pulse and minor second pulse:
 ![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/wave5439_Fit.png "Waveform with large first pulse and minor second pulse")
 
 ![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/wave3434.png "Waveform with large first pulse and minor second pulse")
 
-#### Waveform with two pulses and high noise
+### Waveform with two pulses and high noise:
 ![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/Screen%20Shot%202017-08-21%20at%205.31.38%20PM.png "Waveform with two pulses and high noise")
