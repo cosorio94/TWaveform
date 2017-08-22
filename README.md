@@ -17,7 +17,7 @@ View a detailed description of TWaveform's capabilities and how to use it in the
 ## Examples
 - The graph below was plotted, fitted and analyzed using TWaveform. The blue curve represents the waveform's signal, while the red curve represents the calculated best fit. The red asterisks represent the peak and rise positions of the pulses contained within the waveform, as calculated by TWaveform.
 
-![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/wave5439_Fit.png "Waveform data fitted with TWaveform")
+![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/Screen%20Shot%202017-08-21%20at%205.32.41%20PM.png "Waveform data fitted with TWaveform")
 
 - The plot below shows a template waveform created by TWaveform from a set of waveforms similar to the one on top.
 
@@ -56,8 +56,10 @@ TWaveform wave;
 #### Waveform with two pulses
 ![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/Screen%20Shot%202017-08-21%20at%205.31.15%20PM.png "Waveform with two pulses")
 
+#### Waveforms with large first pulse and minor second pulse
+![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/wave5439_Fit.png "Waveform with large first pulse and minor second pulse")
+
+![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/wave3434.png "Waveform with large first pulse and minor second pulse")
+
 #### Waveform with two pulses and high noise
 ![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/Screen%20Shot%202017-08-21%20at%205.31.38%20PM.png "Waveform with two pulses and high noise")
-
-#### Waveform with large first pulse and minor second pulse
-![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/wave3434.png "Waveform with large first pulse and minor second pulse")
