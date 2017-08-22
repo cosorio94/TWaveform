@@ -10,6 +10,8 @@ A C++ utility library used to read, process, and analyze massive sets of wavefor
 1. [Installation](#installation)
 1. [Usage](#usage)
 1. [More Examples](#more-examples)
+    1. [Waveforms with high-noise](#waveforms-with-high-noise-being-fitted-by-twaveform)
+    1. [Waveforms with two pulses](#waveforms-with-two-pulses)
 
 ## User Manual
 View a detailed description of TWaveform's capabilities and how to use it in the user manual [here](https://github.com/cosorio94/TWaveform/blob/master/UserManual.pdf).
@@ -53,13 +55,12 @@ TWaveform wave;
 
 ![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/Screen%20Shot%202017-08-21%20at%205.30.09%20PM.png "Waveform with noise being fitted by TWaveform")
 
-### Waveform with two pulses:
+### Waveforms with two pulses:
 ![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/Screen%20Shot%202017-08-21%20at%205.31.15%20PM.png "Waveform with two pulses")
 
-### Waveforms with large first pulse and minor second pulse:
+![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/Screen%20Shot%202017-08-21%20at%205.31.38%20PM.png "Waveform with two pulses and high noise")
+
+#### Waveforms with large first pulse and minor second pulse:
 ![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/wave5439_Fit.png "Waveform with large first pulse and minor second pulse")
 
 ![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/wave3434.png "Waveform with large first pulse and minor second pulse")
-
-### Waveform with two pulses and high noise:
-![alt text](https://github.com/cosorio94/TWaveform/blob/master/Plots/Screen%20Shot%202017-08-21%20at%205.31.38%20PM.png "Waveform with two pulses and high noise")
